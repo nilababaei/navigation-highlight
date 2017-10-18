@@ -68,7 +68,7 @@ body {
 }
 
 .nav .current {
-  background-color: #cc1465;
+  background-color: #b20953;
 }
 
 img {
@@ -77,13 +77,15 @@ img {
 }
 
 main {
-  padding: .2em .5em .3em;
-  margin: .3em;
+  padding: 0 .75em;
 }
 
 footer {
-  font-size: .75rem;
   padding: .75em;
   margin-top: .3em;
   text-align: center;
+}
+
+small {
+  font-size: .75rem;
 }
