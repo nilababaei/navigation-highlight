@@ -41,13 +41,14 @@ ul {
 
 .nav li {
   display: inline-block;
+  padding-bottom: 0.75em;
 }
 
 .nav a {
   font-size: 1.125rem;
   color: white;
   display: inline-block;
-  padding: .75em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
@@ -57,10 +58,6 @@ ul {
   background-color: #cc1465;
 }
 
-footer {
-  font-size: .75rem;
-}
-
 p, footer {
   color: #2f2d13;
 }
@@ -68,4 +65,24 @@ p, footer {
 body {
   margin: 0;
   padding: 0;
+}
+
+.nav .current {
+  background-color: #cc1465;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding: .2em .5em .3em;
+  margin: .3em;
+}
+
+footer {
+  font-size: .75rem;
+  padding: .75em;
+  margin: 0;
+  text-align: center;
 }
