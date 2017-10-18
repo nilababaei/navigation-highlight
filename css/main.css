@@ -10,7 +10,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
 }
 
@@ -41,7 +41,7 @@ ul {
 
 .nav li {
   display: inline-block;
-  padding-bottom: 0.75em;
+  padding-bottom: .75em;
 }
 
 .nav a {
@@ -72,6 +72,7 @@ body {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
